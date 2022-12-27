@@ -1,0 +1,238 @@
+*{
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+
+.main-div{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo-div{
+  display: flex;
+  align-items: center;
+  margin-left: -63px;
+}
+.logo-div1{
+display: flex;
+align-items: center;
+margin-left: -425px;
+}
+.keypoint-div1{
+display: flex;
+margin-left: -825px;
+/* padding: 15px; */
+}
+.keypoint-div1 a{
+display: inline-block;
+text-decoration: none;
+color: rgba(0,0,0,.8);
+padding: 24px 16px;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: .6px;
+margin: 0 10px;
+font-family: poppins;
+cursor: pointer;
+}
+ 
+
+.logo-div img {
+  width: 24px;
+  height: 28px;
+}
+.keypoint-div{
+  display: flex;
+  margin-left: -245px;
+  /* padding: 15px; */
+}
+.keypoint-div a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  padding: 24px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  margin: 0 10px;
+  font-family: poppins;
+  cursor: pointer;
+}
+.logo-text {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  margin: 0;
+  color: rgba(0,0,0,.8);
+  margin-left:  10px;
+  font-family: poppins;
+}
+.form-div{
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 6px #ccc;
+}
+.logout{
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  padding: 24px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  margin: 0 10px;
+  font-family: poppins;
+  cursor: pointer;
+}
+.user-div{
+  width: 100%;
+  padding-top: 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin-bottom: 16px;
+  outline: none;
+}
+.login-div{
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 24px;
+  font-family: poppins;
+}
+.form-main-div{
+margin-top: 110px;
+}
+body{
+  background-color: #f6f7fb;
+}
+#table-wrapper {
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  width: 70%;
+  /* margin-left: 220px; */
+  margin-top: -90px;    
+}
+
+#table-headers {
+  width: 100%;
+  overflow: hidden;
+}
+
+#table-data {
+  max-height: 500px;
+  overflow-y: overlay;
+}
+.column{
+  text-align: left;
+  padding: 10px 66px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.column1{
+  text-align: left;
+  padding: 16px 19px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.column2{
+  text-align: left;
+  padding: 14px 24px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+tr{
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-row td{
+  background-color: #fff;
+  border-bottom: 1px solid #f6f7fb;
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.table-box{
+  display: flex;
+}
+.left-div{
+  display: block;
+  width: 300px;
+}
+.checkbox-div label{
+  display: block;
+}
+
+#myInput{
+  width: 40%;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  outline: none;
+}
+.upper-div{
+  margin-left: 220px;
+}
+#reset{
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.table-box {
+  margin-top: 100px;
+}
+.header{
+  margin-top: 99px;
+  margin-left: 100px
+}
+.checkbox-div{
+  margin-left: 110px;
+  margin-top: -90px;
+}
+#table-wrapper2{
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-right: 42px;
+}
+#table-wrapper3{
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 70%;
+    margin-left: 215px;
+    margin-top: 73px;
+    margin-bottom: 30px;
+}
