@@ -1,4 +1,4 @@
-import Login from './components/login/Login'
+import Login from './components/react-project/react-project'
 import Header from './components/header/Header';
 import Orders from './components/order/Orders';
 import Product from './components/products/Product';
@@ -34,10 +34,10 @@ useEffect(() => {
     <div className="App">
       <Header onLogout={() => setIsLogin(false)} login={isLogin}/>
       <Routes>
-      <Route path='/login' element={<Login onLogin={() =>  setIsLogin(true)}/>}></Route>
-      <Route path='/Orders' element={isLogin ? <Orders/> : <Navigate to="/login"/>}></Route>
-      <Route path='/Product' element={isLogin ? <Product/> : <Navigate to="/login"/>}></Route>
-      <Route path='/Users' element={isLogin ? <Users/> : <Navigate to="/login"/>}></Route>
+      <Route path='/react-project' element={<Login onLogin={() =>  setIsLogin(true)}/>}></Route>
+      <Route path='/Orders' element={isLogin ? <Orders/> : <Navigate to="/react-project"/>}></Route>
+      <Route path='/Product' element={isLogin ? <Product/> : <Navigate to="/react-project"/>}></Route>
+      <Route path='/Users' element={isLogin ? <Users/> : <Navigate to="/react-project"/>}></Route>
       </Routes>
     </div>
   );
