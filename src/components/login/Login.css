@@ -242,7 +242,7 @@ tr{
     overflow-x:auto;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 980px){
   .main-div{
     justify-content: space-between;
   }
