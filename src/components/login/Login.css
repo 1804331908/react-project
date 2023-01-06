@@ -144,6 +144,7 @@ body{
 #table-data {
   max-height: 500px;
   overflow-y: overlay;
+  overflow-x:auto;
 }
 .column{
   text-align: left;
@@ -210,6 +211,7 @@ tr{
   outline: none;
   cursor: pointer;
   margin-left: 20px;
+  margin-top: 20px;
 }
 .table-box {
   margin-top: 100px;
@@ -222,12 +224,14 @@ tr{
   margin-left: 110px;
   margin-top: -90px;
 }
+
 #table-wrapper2{
   box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     width: 100%;
     margin-top: -60px;
     margin-bottom: 30px;
     margin-right: 42px;
+    overflow-x:auto;
 }
 #table-wrapper3{
     box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -235,4 +239,99 @@ tr{
     margin-left: 215px;
     margin-top: 73px;
     margin-bottom: 30px;
+    overflow-x:auto;
+}
+
+@media screen and (max-width: 400px){
+  .main-div{
+    justify-content: space-between;
+  }
+  .logo-div{
+    margin-left: 0;
+  }
+  .logo-div img{
+    width: 26px;
+    height: 21px;
+    margin-left: 10px;
+  }
+  .logo-text{
+    font-size: 18px;
+  }
+  .keypoint-div{
+    margin-right: 124px;
+    margin-left: 0;
+  }
+  .keypoint-div a{
+    padding: 18px 1px;
+    font-size: 12px;
+  }
+  .logout{
+    padding: 0;
+    margin-left: -111px;
+    font-size: 12px;
+  }
+  .form-div{
+    max-width: 270px;
+    padding: 22px;
+  }
+  .header{
+    margin-top: 65px;
+    margin-left: 28px;
+    font-size: 13px;
+  }
+  .table-box{
+    margin-top: 100px;
+    display: block;
+  }
+  .checkbox-div{
+    margin-left: 25px;
+    margin-top: -96px;
+    display: flex;
+    align-items: center;
+  }
+  .filter{
+    font-size: 15px;
+  }
+  label{
+    font-size: 13px;
+    padding-left: 15px;
+  }
+  #table-wrapper{
+width: 90%;
+margin-left: 20px;
+margin-top: 0;
+margin-bottom: 50px;
+  }
+  .column{
+    padding: 9px 12px;
+    font-size: 13px;
+  }
+  .data-row td{
+    font-size: 9px;
+    padding: 0;
+  }
+  #table-wrapper2{
+    width: 92%;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    overflow-x: auto;
+  }
+ .upper-div{
+  margin-left: 21px;
+ }
+ #myInput{
+  width: 88%;
+ }
+ #table-wrapper3{
+  width: 92%;
+  margin-left: 17px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+ }
+ .column2{
+  padding: 8px 24px;
+  font-size: 14px;
+ }
 }
